@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+  background: rgba(39, 39, 39, 0.4);
+}
+
+.nav{
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  line-height: 100px; linear-gradient(rgba(39,39,39,0.6),transparent);
+  z-index: 100;
+  
+}
+.nav-SVN PRODUCTION p{
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 600;
+}
+.nav-menu ul{
+  display: flex;
+}
+.nav-menu ul li{
+  list-style-type: none;
+}
+.nav-menu ul li .link{
+  text-decoration: none;
+  font-weight: 500;
+  color: whitesmoke;
+  padding-bottom: 15px;
+  margin: 0 25px;
+}
+.link:hover, .active{
+  border-bottom: 5px solid black;
+}
+.nav-button .btn{
+  width: 130px;
+  height: 40px;
+  font-weight: rgba(255,255,255,0.4);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: .7s esae;
+}
+#registerbtn{
+  margin-left: 15px;
+}
+.btn.white-btn{
+  background: rgba(255,255,255,0.7);
+}
+.btn.btn.white-btn:hover{
+  background:rgba(255,255,255,0.7);
+}
+.nav-menu-btn{
+  display: none;
+}
